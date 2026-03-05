@@ -1,0 +1,56 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+
+# SQLite databases
+*.sqlite3
+*.db
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checking
+.mypy_cache/
+
+# Linter
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# FastAPI reload files
+*.reload
+
+# Alembic migrations cache
+alembic/__pycache__/
+
+# Node modules (если используешь фронт)
+node_modules/
